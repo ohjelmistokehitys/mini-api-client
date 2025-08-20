@@ -1,0 +1,18 @@
+{
+  "name": "api",
+  "description": "Proxy for the mini API client",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "test": "vitest",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.0",
+    "hono": "^4.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17"
+  }
+}

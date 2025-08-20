@@ -1,0 +1,22 @@
+{
+  "name": "mini-api-client",
+  "version": "0.0.1",
+  "description": "Mini client for trying out HTTP endpoints",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "npm run dev --workspace frontend",
+    "api": "npm run dev --workspace api"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  },
+  "author": "",
+  "workspaces": [
+    "frontend",
+    "api",
+    "shared"
+  ]
+}

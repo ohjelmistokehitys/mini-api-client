@@ -1,0 +1,2 @@
+# Sets consistent line endings in Windows and Unix
+* text=auto eol=lf
