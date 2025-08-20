@@ -4,7 +4,7 @@
   "description": "Mini client for trying out HTTP endpoints",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm test --workspaces",
     "frontend": "npm run dev --workspace frontend",
     "api": "npm run dev --workspace api"
   },
