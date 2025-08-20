@@ -9,10 +9,9 @@ The app mimics a minimal API client (like Postman or Bruno) where users can send
 ```
 mini-api-client/
 ├── package.json          # root workspace config
-├── packages/
-│   ├── frontend/         # React + Vite app (UI for sending requests)
-│   ├── api/              # Hono backend (proxy / serverless entry point)
-│   └── shared/           # Shared types and utilities (TypeScript only)
+├── frontend/         # React + Vite app (UI for sending requests)
+├── api/              # Hono backend (proxy / serverless entry point)
+└── shared/           # Shared types and utilities (TypeScript only)
 ```
 
 * **frontend**
